@@ -1,12 +1,25 @@
-# Cipher — Drone (v2.0)
+<h1 align="center">Cipher Drone</h1>
 
-A deployable police drone resource for **QBox (qbx_core)** and **QBCore (qb-core)**.
-Place a physical drone, target it to connect, and fly it with smooth
-mouse-controlled flight — spotlight, thermal, and a tracker dart system with
-live pings for the rest of PD. Criminal-side counterplay is built in: darts
-can be removed or decayed by rain/water, drones can be shot down, and a
-deployable jammer degrades a nearby operator's control instead of just
-killing the feed outright.
+<p align="center">A deployable police drone for <strong>QBox</strong> and <strong>QBCore</strong> — smooth flight, thermal, spotlight, tracker darts and real counterplay.</p>
+
+<p align="center">
+  <a href="https://github.com/XyraL/cipher-drone/releases"><img src="https://img.shields.io/github/v/release/XyraL/cipher-drone?style=flat-square&color=a889ff&label=release" alt="Latest release"></a>
+  <img src="https://img.shields.io/badge/framework-QBox%20%7C%20QBCore-55dcff?style=flat-square" alt="framework">
+  <img src="https://img.shields.io/badge/price-free-30d158?style=flat-square" alt="price">
+  <a href="https://xyralscripts.dev/docs-cipher-drone"><img src="https://img.shields.io/badge/docs-xyralscripts.dev-a889ff?style=flat-square" alt="docs"></a>
+  <a href="https://discord.gg/XRURAw4TM2"><img src="https://img.shields.io/badge/support-discord-5865F2?style=flat-square" alt="support"></a>
+</p>
+
+<p align="center">
+  <a href="https://xyralscripts.dev/cipher-drone">Website</a> &nbsp;·&nbsp;
+  <a href="https://xyralscripts.dev/docs-cipher-drone">Setup guide</a> &nbsp;·&nbsp;
+  <a href="https://github.com/XyraL/cipher-drone/releases">Releases</a> &nbsp;·&nbsp;
+  <a href="https://discord.gg/XRURAw4TM2">Discord</a>
+</p>
+
+<!-- SCREENSHOTS: drop 2-3 in-game shots here once captured -->
+
+---
 
 ## Features
 
@@ -119,3 +132,31 @@ access, so it's safe to leave as-is even for offline/LAN setups.
   range of the dart itself.
 - Shoot-down damage is client-reported (the same trust model already used
   for battery/range), consistent with the rest of the resource.
+
+---
+
+## Documentation
+
+Full setup guide, requirements and troubleshooting:
+**[xyralscripts.dev/docs-cipher-drone](https://xyralscripts.dev/docs-cipher-drone)**
+
+## Support
+
+- **Found a bug?** [Open an issue](https://github.com/XyraL/cipher-drone/issues)
+- **Need setup help?** [Join the Discord](https://discord.gg/XRURAw4TM2) — check the setup guide first, it usually has the answer
+
+## The rest of the Cipher line
+
+All free, all source-available.
+
+| Script | What it is |
+|---|---|
+| **[Cipher](https://github.com/XyraL/cipher)** | modular criminal device for QBox and QBCore — gang ops, blackmarket and boosting in one encrypted tablet. |
+| **[Cipher MDT](https://github.com/XyraL/cipher-mdt)** | full police MDT for QBox and QBCore — live CAD dispatch, civilian records, warrants, BOLOs and supervisor audit. |
+| **[Cipher Admin](https://github.com/XyraL/cipher-admin)** | advanced admin suite for QBox and QBCore — player management, bans, reports, inventory tools and entity inspection. |
+| **[Cipher Trucking](https://github.com/XyraL/cipher-trucking)** | civilian trucking job for QBox and QBCore — live route map, truck ownership, fuel and maintenance, and companies. |
+
+## License
+
+Free to use on any server you own or operate, including commercial ones.
+**Do not redistribute or resell** — see [LICENSE](LICENSE) for the full terms.
